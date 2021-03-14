@@ -1,0 +1,50 @@
+{
+  "name": "fairygui-createjs",
+  "version": "0.0.2",
+  "description": "A GUI Editor & framework for create.js",
+  "main": "dist/fairygui.js",
+  "module": "dist/fairygui.module.js",
+  "types": "build/fairygui-createjs.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fairygui/FairyGUI-createjs"
+  },
+  "files": [
+    "dist/fairygui.js",
+    "dist/fairygui.min.js",
+    "dist/fairygui.module.js",
+    "test",
+    "build"
+  ],
+  "scripts": {
+    "build": "gulp build"
+  },
+  "keywords": [
+    "createjs",
+    "create.js",
+    "fairygui",
+    "fgui",
+    "gui"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://fairygui.com/",
+  "dependencies": {
+    "ismobilejs": "^1.1.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@types/createjs": "0.0.29",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-typescript": "^3.1.6",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0",
+    "rollup": "^1.27.5",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.2"
+  }
+}

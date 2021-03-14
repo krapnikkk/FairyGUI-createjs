@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "declaration": true,
+      "target": "es6",
+      "module": "es6",
+      "moduleResolution":"Node",
+      "sourceMap":true, 
+      "declarationDir": "dist/types",
+  },
+  
+  "include": [
+      "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
