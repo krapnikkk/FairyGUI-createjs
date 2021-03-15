@@ -521,12 +521,7 @@ export class GComponent extends GObject {
     protected handleSizeChanged(): void {
         if (this.$scrollPane) this.$scrollPane.onOwnerSizeChanged()
         else if (this.$rootContainer.scrollRect != null) this.updateScrollRect()
-        if (this.$hitArea) this.$hitArea.graphics.drawRect(this.x, this.y, this.width, this.height);
-        if (this.parent && this.parent.$hitArea) {
-            
-            console.log(1);
-            (this as any).parent.$displayObject.hitArea = null
-        }
+        if (this.$hitArea) this.$hitArea.graphics.drawRect(0, 0, this.width, this.height);
         if (this.$opaque) this.updateOpaque()
     }
 
