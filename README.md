@@ -4,6 +4,11 @@
 
 Official website: [www.fairygui.com](https://www.fairygui.com)
 
+#### Install
+```
+npm install fairygui-createjs
+```
+
 #### Live Demo ####
 [example](https://blog.krapnik.cn/FairyGUI-createjs-example/dist/index.html)
 

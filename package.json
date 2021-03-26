@@ -1,13 +1,13 @@
 {
   "name": "fairygui-createjs",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "A GUI Editor & framework for create.js",
   "main": "dist/fairygui.js",
   "module": "dist/fairygui.module.js",
   "types": "build/fairygui-createjs.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fairygui/FairyGUI-createjs"
+    "url": "https://github.com/krapnikkk/FairyGUI-createjs"
   },
   "files": [
     "dist/fairygui.js",
